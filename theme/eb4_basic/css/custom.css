@@ -1,0 +1,299 @@
+/* 여기에 작업 또는 수정할 당신의 css style을 설정하세요. (customizations) */
+
+.header-title-search .eyoom-form .input input {
+    background-color: #F8F9FC;
+    border: 0;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    font-size: 14px;
+    line-height: normal;
+    border-bottom-right-radius: 20px;
+    border-radius: 20px;
+}
+
+.header-title-search .eyoom-form .input-button .button {
+    border-left: 0;
+}
+
+.header-title-search .eyoom-form .input-button .button {
+    background-color: #F8F9FC;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.header-title-search .eyoom-form .input-button .button i {
+    color: #000;
+}
+
+.header-title-search .eyoom-form .input input:focus {
+    border: 0 !important;
+    border-color: transparent !important;
+}
+
+.top-header-nav .cs-nav a span {
+    border-left: 0;
+    height: auto;
+}
+
+.top-header-nav .cs-nav.s-nav a span {
+    border-right: 0;
+    font-weight: normal;
+}
+
+.top-header-nav .cs-nav .deactivate {
+    background-color: #fff;
+    color: #000;
+}
+
+.top-header {
+    border-bottom: 0;
+}
+
+.top-header-nav .cs-nav .activate,
+.top-header-nav .cs-nav .deactivate:hover {
+    color: #A445DE;
+    font-weight: 400;
+}
+
+.top-header-nav li i.fa-male,
+.top-header-nav li i.fa-unlock-alt,
+.top-header-nav li i.fa-user-plus,
+.top-header-nav li i.fa-plus-circle {
+    display: none;
+}
+
+.top-header-main {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: flex-end;
+}
+
+.header-title-search .input-button {
+    margin-bottom: 0;
+}
+
+.header-title .header-title-btn {
+    display: none;
+}
+
+.top-header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-header-nav li.dropdown .dropdown-menu {
+    border-radius: 8px;
+}
+
+.top-header-nav li.dropdown .dropdown-toggle::after{
+    display: none;
+}
+
+.top-header-nav li > a i {
+    color: #000;
+}
+
+/* .top-header-nav li.dropdown:hover > .dropdown-menu {
+    padding: 0;
+} */
+
+.top-header-nav li.dropdown .dropdown-menu a {
+    padding: 12px;
+}
+
+.top-header-nav li.dropdown .dropdown-menu a:hover {
+    color: #000;
+    background-color: #F7F3FF;
+}
+
+.top-header-nav li > a:hover {
+    color: #A445DE;
+}
+
+.nav-wrap > .container {
+    padding: 0;
+}
+
+.navbar-nav>li.dropdown-mega-menu>.nav-link {
+    border: 0;
+}
+
+.navbar-nav>li>.nav-link {
+    border-bottom: 2px solid transparent;
+    padding: 16px 10px 10px !important;
+}
+
+
+.navbar-nav>li.dropdown-mega-menu>.nav-link {
+    left: 0;
+    right: unset;
+    padding: 15px 18px 10px !important;
+}
+
+.navbar-nav>li.dropdown-mega-menu>.nav-link:hover,
+.navbar-nav>li>.nav-link:hover {
+    color: #A445DE;
+    border-color:#A445DE;
+}
+
+.navbar-expand-lg .navbar-nav {
+    padding-left: 50px;
+}
+
+.navbar-nav>li .dropdown-menu .dropdown-submenu .nav-link {
+    padding: 12px !important;
+}
+
+.navbar-nav>li .dropdown-menu .dropdown-submenu .nav-link:hover {
+    color: #000;
+    background-color: #F7F3FF;
+}
+
+.navbar-nav .dropdown-menu li a.active, .navbar-nav .dropdown-menu li a:hover, .navbar-nav .dropdown-menu>ul>.mega-menu-col ul>li:hover>a, .navbar-nav .dropdown-menu>ul>li:hover>a {
+    color: #A445DE;
+}
+
+.header-title-search .eyoom-form .input-button .button img {
+    position: relative;
+    top: -2px;
+}
+
+.navbar-nav .mega-menu-col {
+    border-right: 0;
+}
+
+.navbar-nav .mega-menu-col .mega-menu-item {
+    padding: 10px 15px;
+} 
+
+.navbar-nav .mega-menu-col .menu3-ul .mega-menu-item {
+    border-left: 0;
+    padding: 10px 15px;
+}
+
+.navbar-nav .mega-menu-col .mega-menu-item:hover,
+.navbar-nav .mega-menu-col ul li:hover {
+    background-color: #2F333C;
+    color: #fff !important;
+    border-radius: 8px;
+}
+
+.navbar-nav .mega-menu-col {
+    width: 15% !important;
+}
+
+.navbar-nav .dropdown:hover>.dropdown-menu {
+    padding: 10px 15px;
+}
+
+.footer {
+    background-color: #17191E;
+}
+
+.footer-top {
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer-cont-info {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 0;
+}
+
+.footer-copyright {
+    color: #9DA6BB;
+    font-size: .8125rem;
+    text-align: left;
+    padding: 20px 0;
+    margin-bottom: 28px;
+}
+
+.footer-right-nav a,
+.footer-cont-info a {
+    color: #E5EAF4;
+}
+
+.footer-cont-info strong,
+.footer-cont-info span {
+    color: #E5EAF4 !important;
+}
+
+footer .text-black {
+    color: #E5EAF4 !important;
+}
+
+.footer-nav {
+    float: unset;
+    padding-bottom: 64px;
+}
+
+.footer-nav a {
+    color: #fff;
+}
+
+span.footer-dark-color {
+    color: #606878 !important;
+}
+
+.footer-cont-info .footer-dark-color a {
+    color: #606878;
+}
+
+.footer-dark-color span {
+    color: #606878 !important;
+}
+
+span.footer-dark-color + .info-divider {
+    color: #606878 !important;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.footer-top:after {
+    display: none;
+}
+
+@media(max-width: 992px) {
+    .top-header-nav .cs-nav.s-nav {
+        margin-right: -10px;
+    }
+
+    .container, .container-md, .container-sm {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .footer-right-nav,
+    .footer-nav {
+        text-align: left;
+    }
+
+    .footer-right-nav a {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .footer-top {
+        display: block;
+    }
+
+    .footer-top .footer-logo {
+        margin-bottom: 15px;
+    }
+}
